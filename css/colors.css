@@ -1,7 +1,8 @@
 :root {
     /* Colors */
     --primary-color:#3c7d1b;
-    --primary-color-light:#8dd449;
+    --primary-color-light:hsl(100, 64%, 45%);
+    --primary-color-dark: hsl(100, 64%, 20%);
     --secondary-color:#c7a968;
     --secondary-color-extra-light:#f4f2e9;
     --secondary-color-light:#f5e1b5;
