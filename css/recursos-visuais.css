@@ -482,7 +482,7 @@ Destaques
 .box-quote {
   position: relative;
   border: 4px dotted var(--secondary-color);
-  border-radius: 4px;
+  border-radius: 0.75rem;
   padding: 30px;
 }
 .box-quote h5 {
@@ -2517,8 +2517,8 @@ TIMELINE HORIZONTAL 2
 Chrome, Safari, Opera, Edge */
 
 .timeline-horizontal2 .box-quote::-webkit-scrollbar {
-  width:12px;
-  background-color: #f1f1f1;
+  width:8px;
+  background-color:var(--color-light);
 }
 
 .timeline-horizontal2 ol::-webkit-scrollbar {
@@ -2528,7 +2528,7 @@ Chrome, Safari, Opera, Edge */
 
 .timeline-horizontal2 .box-quote::-webkit-scrollbar-thumb,
 .timeline-horizontal2 ol::-webkit-scrollbar-thumb {
-  background-color: #c1c1c1;
+  background-color: var(--secondary-color);
 }
 
 .timeline-horizontal2 ol li {
