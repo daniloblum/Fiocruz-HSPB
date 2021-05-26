@@ -3,6 +3,7 @@
 @import "header.css";
 @import "footer.css";
 @import "colors.css";
+@import "buttons.css";
 @import "recursos-visuais.css";
 
 
@@ -51,28 +52,6 @@ a:focus {
     color: var(--primary-color-light);
     font-weight: 500;
     text-decoration: underline;
-}
-
-.button-fill {
-    display: block;
-    padding: 8px 16px;
-    min-width: 120px;
-    text-align: center;
-    border-radius: 4px;
-    background-color: var(--primary-color);
-    color: #ffffff !important;
-    border: 1px solid var(--primary-color);
-    text-decoration: none;
-}
-.button-fill:hover {
-    background-color: var(--primary-color-light);
-    color: #ffffff;
-    border: 1px solid var(--primary-color-light);
-    text-decoration: none;
-}
-
-.button-fill:focus {
-    text-decoration: none;
 }
 
 .primary-color {
