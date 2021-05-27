@@ -1,0 +1,45 @@
+/* Buttons */
+
+.button-fill {
+    display: block;
+    padding: 8px 16px;
+    min-width: 120px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: #ffffff !important;
+    border: 1px solid var(--primary-color);
+    text-decoration: none;
+}
+.button-fill:hover {
+    background-color: var(--primary-color-light);
+    color: #ffffff;
+    border: 1px solid var(--primary-color-light);
+    text-decoration: none;
+}
+
+.button-fill:focus {
+    text-decoration: none;
+}
+
+.button-line {
+    display:inline-block;
+    padding: 8px 16px;
+    min-width: 120px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: none;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    text-decoration: none;
+}
+.button-line:hover {
+    background-color: var(--color-light-hover);
+    color: var(--primary-color-light);
+    border: 1px solid var(--primary-color-light);
+    text-decoration: none;
+}
+
+.button-line:focus {
+    text-decoration: none;
+}
