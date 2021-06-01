@@ -4,11 +4,10 @@
 
 // // MOBILE
 
-
 var sidebarBtn = $("#sidebar-toggle")
 var content = $(".content")
 var sidebarMobile = $(".sidebar")
-
+var btn = $('.btn');
 
 function touchControl(event, obj) {
     if (event == true) {
@@ -25,8 +24,11 @@ sidebarBtn.on("click", function () {
         // closing
         sidebarMobile.removeClass("sidebar--open")
         sidebarMobile.addClass("sidebar--close")
-        sidebarBtn.removeClass("sidebar-toggle--open")
-        sidebarBtn.addClass("sidebar-toggle--close")
+
+        sidebarBtn.css('background-color', '#3c7d1b')
+        
+        btn.toggleClass('active');
+        btn.toggleClass('not-active');
 
         content.removeClass("touch-disable")
         content.addClass("touch-enable")
@@ -36,8 +38,11 @@ sidebarBtn.on("click", function () {
         // opening
         sidebarMobile.removeClass("sidebar--close")
         sidebarMobile.addClass("sidebar--open")
-        sidebarBtn.removeClass("sidebar-toggle--close")
-        sidebarBtn.addClass("sidebar-toggle--open")
+
+        sidebarBtn.css('background-color', '#dc3545')
+
+        btn.toggleClass('active');
+        btn.toggleClass('not-active');
 
         content.removeClass("touch-enable")
         content.addClass("touch-disable")
