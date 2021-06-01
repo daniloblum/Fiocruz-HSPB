@@ -1472,10 +1472,10 @@ Timeline
   box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
-.cd-timeline__content img {
+/* .cd-timeline__content img {
   max-width: 20%;
   margin: 0 35%;
-}
+} */
 
 .cd-timeline__img h4 {
   text-align: center;
