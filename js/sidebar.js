@@ -39,7 +39,7 @@ sidebarBtn.on("click", function () {
         sidebarMobile.removeClass("sidebar--close")
         sidebarMobile.addClass("sidebar--open")
 
-        sidebarBtn.css('background-color', '#dc3545')
+        sidebarBtn.css('background-color', '#917434')
 
         btn.toggleClass('active');
         btn.toggleClass('not-active');
