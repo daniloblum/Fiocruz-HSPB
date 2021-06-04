@@ -115,7 +115,11 @@ section .page-nav .button-fill {
     }
 }
 
-
-
-
+/* SVG Mapa do Brasil */
+svg .info .has-info {
+    cursor: pointer;
+}
+svg .info .has-info:hover {
+    mix-blend-mode:color;    
+}
 
