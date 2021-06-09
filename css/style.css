@@ -86,7 +86,7 @@ body {
 }
 
 #page-content {
-    min-height: calc(100vh - 150px);
+    min-height: 100vh;
 }
 
 section {
@@ -115,7 +115,11 @@ section .page-nav .button-fill {
     }
 }
 
-
-
-
+/* SVG Mapa do Brasil */
+svg .info .has-info {
+    cursor: pointer;
+}
+svg .info .has-info:hover .has-info--hover {
+    mix-blend-mode:color;    
+}
 
