@@ -14,7 +14,7 @@ animate(headerTitle, "fadeIn", '0.4s')
 
 // Intersection Observer Animation - CARDS
 
-const cards = document.querySelectorAll('.card')
+const cards = document.querySelectorAll('.card.shadow')
 const timelineCards = document.querySelectorAll('.cd-timeline__content')
 
 const options = {
