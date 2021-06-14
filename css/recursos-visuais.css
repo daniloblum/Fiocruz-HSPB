@@ -855,23 +855,28 @@ Flipcards 2.0
     height: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.6) 100%);
+    /* background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.6) 100%); */
+    background: linear-gradient(180deg, rgba(120, 191, 59, 0.35) 0%,rgba(0, 0, 0, 0.18) 50%, rgba(74,167,1,1) 100%);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
 .flip-card-front .card-body {padding:1rem;}
 
+.flip-card-front .card-title {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.65) !important;
+}
+
 .flip-card-front .card-footer,
 .flip-card-back .card-footer {
 	padding-top:0.5rem;
 	padding-bottom:0.5rem;
-  background-color: none;
+  background: none;
   border: none;
 }
 
 .flip-card-front .card-footer .btn,
-.flip-card-back .card-footer .btn {width:60%;}
+.flip-card-back .card-footer .btn {width:70%;}
 
 .flip-card-front .card-footer .btn:hover {
 	background-color: rgba(255,255,255, 0.5);
@@ -889,7 +894,9 @@ Flipcards 2.0
 
 /*Fundos para flipcard*/
 .flip-card .fundo1 {
-background-image: url(https://via.placeholder.com/720/3c7d1b/5abc29);
+background-image: url(../images/fundo-flipcard.jpg);
+background-size: cover;
+
 }
 
 /*Configuração do verso*/
@@ -912,7 +919,9 @@ background-image: url(https://via.placeholder.com/720/3c7d1b/5abc29);
 .flip-card-back .card-footer .btn {
 	border-color:var(--primary-color);
 	border-width: 2px;
-	color:var(--primary-color);
+	/* color:var(--primary-color); */
+  color:#fff;
+  background:var(--primary-color);
 }
 
 /*Habilita o Scroll*/
