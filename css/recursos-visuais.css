@@ -1510,6 +1510,9 @@ Timeline
 }
 
 .cd-timeline__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -1528,13 +1531,13 @@ Timeline
 
 .cd-timeline__img h4 {
   text-align: center;
-  margin: 15px 0;
+  margin:0;
 }
 
 .cd-timeline__img h4.ano {
   color:#fff;
   font-size: 12px;
-  margin: 22px 0;
+  line-height: 0.9;
 }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -1545,11 +1548,6 @@ Timeline
 
   .cd-timeline__img h4.ano {
     font-size: 10px;
-    margin: 15px 0;
-  }
-
-  .cd-timeline__img h4.ano.mes {
-    margin: 8px 0;
   }
 }
 
