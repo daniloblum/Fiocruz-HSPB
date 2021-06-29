@@ -1030,14 +1030,14 @@ Slider
 .carousel-indicators {margin-bottom:0;}
 
 .carousel-indicators .active {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-light);
 }
 
 .carousel-indicators.somente-img .active {
   background-color: #fff;
 }
 
-.carousel-indicators li {background-color: var(--color-light);}
+.carousel-indicators li {background-color: var(--color-dark);}
 
 .carousel ul {
   list-style: none;
@@ -1057,6 +1057,10 @@ Slider
 
 .carousel .slider-body p:last-child {
   margin-bottom: 0;
+}
+
+.carousel .figure-caption {
+  padding:0 1rem;
 }
 
 /*A classe carousel-texto controla a altura mínima do box do slider*/

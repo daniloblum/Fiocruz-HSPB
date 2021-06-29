@@ -70,7 +70,8 @@ strong {
     text-align: center;
 }
 
-.figure-caption .fonte {
+.figure-caption .fonte,
+.fonte {
     font-size: 75%;
     color: #6c757d;
     text-align: center;
