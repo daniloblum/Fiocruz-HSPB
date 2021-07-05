@@ -149,7 +149,7 @@
                 <!-- Inserir o conteúdo aqui -->
                 <section>
                     <div class="container">
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center mb-5">
                             <div class="col-12 col-lg-8">
                                 <!-- Heading Block (Título h2 ou h3  + Lead (se houver)) -->
                                 <div class="heading__block">
@@ -165,40 +165,67 @@
                                     vida entre negros e brancos e o racismo permanecem em nossa sociedade. </p>
                                 <p>E quais são as consequências disso?</p>
 
-                                <!-- Card com texto e imagem -->
-                                <div class="row justify-content-center my-5" id="card-texto-imagem1">
-                                    <!-- Cardbox 1 -->
-                                    <div class="col-12 col-md-6">
-                                        <div class="card-destaque card rounded border-0 shadow h-100">
-                                            <img src="../../images/unidade1/aula1/topico3/ic_educacao.svg"
-                                                title="Fonte:Freepik" class="rounded-top">
-                                            <div class="card-body">
-                                                <h5>Educação</h5>
-                                                <p>O período da escravidão deixou como legado uma forte desigualdade
-                                                    social expressa na baixa escolaridade, menores salários e maiores
-                                                    taxas de analfabetismo entre a população negra. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Fim do Cardbox 1 -->
+                            </div>
+                        </div>
 
-                                    <!-- Cardbox 2 -->
-                                    <div class="col-12 col-md-6 col-lg-6 mt-5 mt-lg-0">
-                                        <div class="card-destaque card border-0 shadow h-100">
-                                            <img src="../../images/unidade1/aula1/topico3/ic_saude.svg"
-                                                title="Fonte:Freepik" class="rounded-top">
-                                            <div class="card-body">
-                                                <h5 class="mt-0">Saúde</h5>
-                                                <p class="card-text">Na saúde, os negros são mais expostos a diferentes
-                                                    riscos e muitas vezes sofrem preconceito (racismo institucional) no
-                                                    atendimento em serviços de saúde. </p>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8">
+                                <p class="text-muted mb-0 align-self-center text-center mb-5"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-hand-index-thumb" viewBox="0 0 16 16" style="transform: rotatex(180deg);">
+                                        <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 0 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 1 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.118a.5.5 0 0 1-.447-.276l-1.232-2.465-2.512-4.185a.517.517 0 0 1 .809-.631l2.41 2.41A.5.5 0 0 0 6 9.5V1.75A.75.75 0 0 1 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v6.543L3.443 6.736A1.517 1.517 0 0 0 1.07 8.588l2.491 4.153 1.215 2.43A1.5 1.5 0 0 0 6.118 16h6.302a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.632 2.632 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"></path>
+                                    </svg>
+                                    Clique nas imagens para visualizar as informações.</p>
+
+                                <div class="row justify-content-around">
+                                    <div class="col-8 col-md-6 col-lg-4 mb-5">
+                                        <!-- Accordion Image 1 -->
+                                        <div class="accordion accordion-foto">
+                                            <!--Item 1-->
+                                            <a data-toggle="collapse" class="collapsed" href="#accordion-foto1">
+                                                <!--Imagens se movimentam no Hover-->
+                                                <div class="pic-container mx-auto">
+                                                    <img src="../../images/unidade1/aula1/topico3/ic_educacao.svg" class="pic pic-frente rounded">
+                                                    <span class="pic pic-tras"></span>
+                                                    <span class="pic pic-tras"></span>
+                                                </div>
+                                                <!-- Fim das imagens-->
+                                                <h5 class="text-center">Educação <i class="bi bi-chevron-down"></i>
+                                                </h5>
+                                            </a>
+
+                                            <div id="accordion-foto1" class="accordion-foto-conteudo collapse card border-0 shadow p-3 card--out">
+                                                <p class="m-0 mx-auto">O período da escravidão deixou como legado uma forte desigualdade social expressa na baixa escolaridade, menores salários e maiores taxas de analfabetismo entre a população negra.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-8 col-md-6 col-lg-4 mb-5">
+                                        <!-- Accordion Image 2 -->
+                                        <div class="accordion accordion-foto">
+                                            <!--Item 2-->
+                                            <a data-toggle="collapse" class="collapsed" href="#accordion-foto2">
+                                                <!--Imagens se movimentam no Hover-->
+                                                <div class="pic-container mx-auto">
+                                                    <img src="../../images/unidade1/aula1/topico3/ic_saude.svg" class="pic pic-frente rounded">
+                                                    <span class="pic pic-tras"></span>
+                                                    <span class="pic pic-tras"></span>
+                                                </div>
+                                                <!-- Fim das imagens-->
+                                                <h5 class="text-center">Saúde <i class="bi bi-chevron-down"></i>
+                                                </h5>
+                                            </a>
+
+                                            <div id="accordion-foto2" class="accordion-foto-conteudo collapse card border-0 shadow p-3 card--out">
+                                                <p class="m-0 mx-auto">Na saúde, os negros são mais expostos a diferentes riscos e muitas vezes sofrem preconceito (racismo institucional) no atendimento em serviços de saúde.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Fim do Cardbox 2 -->
                                 </div>
-                                <!-- Fim do Card com texto e imagem -->
-
+                            </div>
+                        </div>
+                                
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8">
                                 <p>Os problemas relacionados à desigualdade entre negros e brancos em nossa sociedade
                                     estão ligados ao longo período de escravidão. Este sistema construiu em muitos
                                     brasileiros uma persistente ideia da existência de diferenças a partir da cor da
