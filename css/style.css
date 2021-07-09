@@ -91,7 +91,7 @@ body {
 }
 
 section {
-    padding: 50px 0 30px;
+    padding: 40px 0;
 }
 
 section .page-nav {
@@ -100,7 +100,7 @@ section .page-nav {
     flex-direction: row;
 }
 
-section .page-nav .button-fill {
+section .page-nav .button-primary {
     min-width: 30%;
 }
 
@@ -111,7 +111,7 @@ section .page-nav .button-fill {
 }
 
 @media (max-width: 1199px) {
-    section .page-nav .button-fill {
+    section .page-nav .button-primary {
         min-width: 40%;
     }
 }

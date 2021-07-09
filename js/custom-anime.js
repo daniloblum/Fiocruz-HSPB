@@ -1,7 +1,7 @@
 // Instant Animation
 
-const headerTitleLabel = document.querySelector('.header__title h3')
-const headerTitle = document.querySelector('.header__title h1')
+const headerTitleLabel = document.querySelector('.header__title div div div:first-child')
+const headerTitle = document.querySelector('.header__title div div div:last-child')
 
 function animate (element, type,  delay) {
   element.classList.add('animate__animated','animate__' + type)
@@ -9,13 +9,12 @@ function animate (element, type,  delay) {
 }
 
 animate(headerTitleLabel, "fadeIn", '0.2s')
-animate(headerTitle, "fadeIn", '0.4s')
+animate(headerTitle, "fadeIn", '0.5s')
 
 
 // Intersection Observer Animation - CARDS
 
 const cards = document.querySelectorAll('.card.shadow')
-const timelineCards = document.querySelectorAll('.cd-timeline__content')
 
 const options = {
   root: null, //it is the viewport
@@ -41,7 +40,9 @@ cards.forEach(card => {
   observerCards.observe(card);
 })
 
-// Intersection Observer Animation - CARDS
+// Intersection Observer Animation - CARDS Timeline
+
+const timelineCards = document.querySelectorAll('.cd-timeline__content')
 
 const optionsTimeline = {
   root: null, //it is the viewport

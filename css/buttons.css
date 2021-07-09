@@ -1,7 +1,7 @@
 /* Buttons */
 
-.button-fill {
-    display: block;
+.button-primary {
+    display:inline-block;
     padding: 8px 16px;
     min-width: 120px;
     text-align: center;
@@ -11,18 +11,18 @@
     border: 1px solid var(--primary-color);
     text-decoration: none;
 }
-.button-fill:hover {
+.button-primary:hover {
     background-color: var(--primary-color-light);
     color: #ffffff;
     border: 1px solid var(--primary-color-light);
     text-decoration: none;
 }
 
-.button-fill:focus {
+.button-primary:focus {
     text-decoration: none;
 }
 
-.button-line {
+.button-secondary {
     display:inline-block;
     padding: 8px 16px;
     min-width: 120px;
@@ -33,13 +33,13 @@
     border: 1px solid var(--primary-color);
     text-decoration: none;
 }
-.button-line:hover {
-    background-color: var(--color-light-hover);
-    color: var(--primary-color-light);
+.button-secondary:hover {
+    background-color: var(--primary-color-light);
+    color: #ffffff;
     border: 1px solid var(--primary-color-light);
     text-decoration: none;
 }
 
-.button-line:focus {
+.button-secondary:focus {
     text-decoration: none;
 }
