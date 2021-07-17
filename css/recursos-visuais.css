@@ -2547,11 +2547,11 @@ TIMELINE HORIZONTAL 2
   color:var(--primary-color);
 }
 
-.timeline-horizontal2 .box-quote h4::before {
-  content:"\f3c5";
-  font-family: FontAwesome;
+.timeline-horizontal2 .box-quote h4 i {
   font-style: normal;
+  font-size: 1.25rem;
   margin-right:0.5rem;
+  vertical-align: middle;
 }
 
 .timeline-horizontal2 ol {
