@@ -1,3 +1,26 @@
+// Ajustar a altura da página quando for menor que a sidebar
+
+$(document).ready( function () {
+    
+    const alturaSidebar = $(".sidebar").height()
+    const alturaContent = $(".content").height()
+    const alturaConteudo = $(".header").height() + $("#page-content").height() + $("footer").height()
+
+    // console.log(alturaSidebar)
+    // console.log(alturaContent)
+    // console.log(alturaConteudo)
+
+    if(alturaSidebar > alturaConteudo) {
+
+        // console.log("é maior")
+
+        $("#page-content").height($(".sidebar").height() - ($(".header").height() + 2 * $("footer").height()))
+
+        // console.log("nova altura do conteudo: ", $("#page-content").height())
+
+    }
+})
+
 // Unidade 1 / Aula 1 / Topico 5
 // Mapa do Brasil 1
 
