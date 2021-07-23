@@ -1265,6 +1265,7 @@ Tabela
 
 .table-responsive table thead th {
   border: none;
+  vertical-align: middle;
 }
 
 .table-responsive th {
@@ -1280,6 +1281,7 @@ Tabela
 .table-responsive td,
 .table-responsive tr {
   border: 1px solid var(--primary-color);
+  vertical-align: middle;
 }
 
 .table ul li {
