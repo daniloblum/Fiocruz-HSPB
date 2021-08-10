@@ -77,6 +77,15 @@ strong {
     text-align: center;
 }
 
+.figure-caption a, 
+.figure-caption a:visited {
+    color: #6c757d;
+    font-weight: 500;
+    text-decoration: none;
+} {
+
+}
+
 body {
     background-color: #fbfbfb;
     font-size: 1.25rem;
