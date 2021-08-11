@@ -71,14 +71,18 @@ strong {
 }
 
 .figure-caption .fonte,
-.fonte {
+.fonte,
+.video-subtitle{
     font-size: 75%;
     color: #6c757d;
     text-align: center;
 }
 
 .figure-caption a, 
-.figure-caption a:visited {
+.figure-caption a:visited,
+.video-subtitle,
+.video-subtitle a,
+.video-subtitle a:visited {
     color: #6c757d;
     font-weight: 500;
     text-decoration: none;
