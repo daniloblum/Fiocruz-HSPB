@@ -1,25 +1,32 @@
 // Ajustar a altura da página quando for menor que a sidebar
 
-$(document).ready( function () {
+// $(document).ready( function () {
     
-    const alturaSidebar = $(".sidebar").height()
-    const alturaContent = $(".content").height()
-    const alturaConteudo = $(".header").height() + $("#page-content").height() + $("footer").height()
+(function(){
+    let sidebarHeight = document.getElementsByClassName("sidebar")
+    let contentHeight = document.getElementsByClassName("content")
+    let headerHeight = document.getElementsByTagName('header')
+    let footerHeight = document.getElementsByTagName("footer")
+    let sectionsToDiscount = headerHeight[0].offsetHeight + footerHeight[0].offsetHeight
+    // const sidebarHeight = $(".sidebar").height()
+    // const contentHeight = $(".content").height()
+    // const sectionsToDiscount = ($(".header").height() + 2 * $("footer").height())
 
-    // console.log(alturaSidebar)
-    // console.log(alturaContent)
-    // console.log(alturaConteudo)
+    // console.log(sidebarHeight[0].offsetHeight)
+    // console.log(contentHeight[0].offsetHeight)
+    // console.log(sectionsToDiscount)
 
-    if(alturaSidebar > alturaConteudo) {
+    if(sidebarHeight[0].offsetHeight > contentHeight[0].offsetHeight) {
 
-        // console.log("é maior")
+        //
 
-        $("#page-content").height($(".sidebar").height() - ($(".header").height() + 2 * $("footer").height()))
-
-        // console.log("nova altura do conteudo: ", $("#page-content").height())
+        let pageContent = document.getElementById("page-content")
+        pageContent.style.minHeight = (sidebarHeight[0].offsetHeight - sectionsToDiscount) + "px"
+        //($(".sidebar").height() - ($(".header").height() + 2 * $("footer").height()))
 
     }
-})
+
+})();
 
 // Unidade 1 / Aula 1 / Topico 5
 // Mapa do Brasil 1
