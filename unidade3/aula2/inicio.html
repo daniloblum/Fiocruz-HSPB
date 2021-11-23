@@ -142,9 +142,6 @@
                   <div class="heading__block">
                     <span class="heading__before">Aula 2</span>
                     <h2 class="heading__title">O Movimento pela Reforma Sanitária<br />brasileira</h2>
-                    <!-- <p class="heading__lead">A idéia deste modelo é reunir os principais recursos visuais
-                                    utilizados
-                                    para as aulas.</p> -->
                   </div>
                   <!-- Fim do Heading Block -->
                 </div>
@@ -174,6 +171,25 @@
                   <!-- Fim da Lista Simples -->
                 </div>
               </div>
+
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <p>Ouça abaixo o audio selecionado:</p>
+
+                    <!-- Podcast -->
+                    <div class="row justify-content-center my-5">
+                      <div class="col-12 col-md-10 p-0">
+
+                          <div class="player-with-download green-audio-player">
+                              <audio crossorigin="">
+                                  <source src="../../audios/unidade3/aula2/inicio/audio1.mp3" type="audio/mpeg">
+                              </audio>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Fim de Podcast -->
+                </div>
+            </div>
             </div>
           </section>
 
@@ -244,6 +260,30 @@
     <script type="text/javascript" src="../../js/scripts.js"></script>
     <script type="text/javascript" src="../../js/anime.min.js"></script>
     <script type="text/javascript" src="../../js/custom-anime.js"></script>
+    <script type="text/javascript" src="../../js/green-audio-player.js"></script> <!-- JS Green Audio Player -->
+
+    <!-- Para inicializar o áudio para Podcast -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            GreenAudioPlayer.init({
+                selector: '.player',
+                stopOthersOnPlay: true
+            });
+    
+            GreenAudioPlayer.init({
+                selector: '.player-with-download',
+                stopOthersOnPlay: true,
+                showDownloadButton: true,
+                enableKeystrokes: true
+            });
+    
+            GreenAudioPlayer.init({
+                selector: '.player-with-accessibility',
+                stopOthersOnPlay: true,
+                enableKeystrokes: true
+            });
+        });
+    </script>
 
      <!-- Modal Bibliografia -->
     <div class="modal fade" id="modal-bibliografia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
