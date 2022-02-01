@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "Fiocruz-HSPB"
+    "liveServer.settings.multiRootWorkspaceName": "Fiocruz-HSPB",
+    "liveServer.settings.port": 5501
 }
